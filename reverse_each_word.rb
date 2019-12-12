@@ -4,7 +4,8 @@ def reverse_each_word(string)
   array.each do |word|
     reverse_word = word.reverse 
     array2 << reverse_word 
+    reverse_string = array2.join
   end 
-  return array2 
+  return reverse_string  
 end 
   
